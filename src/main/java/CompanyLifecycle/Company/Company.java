@@ -40,6 +40,10 @@ public class Company {
         company.createReport();
     }
 
+
+    /**
+     * @param numberOfEmployees number of employees in company
+     */
     public void run(int numberOfEmployees){
         int numberOfWeeks = 4;
         configure(numberOfEmployees);
