@@ -1,0 +1,27 @@
+  Company with $employees.size() employees was created!
+
+  List of positions:
+  #foreach($position in $positions)
+      $position
+  #end
+
+  Overall, company did $numberOfTasks tasks in 4 weeks
+
+  List of employees:
+  #foreach( $employee in $employees)
+    #set ($map = $employee.getWorkedHoursMap())
+    $employee worked this time:
+    #foreach ($mapEntry in $map.entrySet())
+      $mapEntry.key position - $mapEntry.value #if($$mapEntry.value == 1) hour#else hours#end
+
+    #end
+    and was payed $employee.getSalary() in total.
+
+  #end
+  #if($freelancers.size() > 0)
+    Since we had insufficient resources, we hired freelancers:
+      #foreach( $freelancer in $freelancers)
+      $freelancer, he worked $freelancer.getMonthlyWorkedHours() #if($freelancer.getMonthlyWorkedHours() == 1) hour#else hours#end, and was payed $freelancer.getSalary()
+      #end
+  #end
+

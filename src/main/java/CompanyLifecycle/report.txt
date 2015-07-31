@@ -1,0 +1,105 @@
+  Company with 20 employees was created!
+
+  List of positions:
+        Accountant
+        Designer
+        Developer
+        Director
+        Manager
+        Tester
+  
+  Overall, company did 916 tasks in 4 weeks
+
+  List of employees:
+      1 employee with positions: Developer, Manager,  worked this time
+          Developer position - 141  hours
+          Manager position - 0  hours
+        and was payed 5209.5 in total
+
+      2 employee with positions: Developer, Manager,  worked this time
+          Developer position - 48  hours
+          Manager position - 76  hours
+        and was payed 5902.6 in total
+
+      3 employee with positions: Tester,  worked this time
+          Tester position - 160  hours
+        and was payed 2040.0 in total
+
+      4 employee with positions: Tester,  worked this time
+          Tester position - 76  hours
+        and was payed 989.4 in total
+
+      5 employee with positions: Tester,  worked this time
+          Tester position - 0  hours
+        and was payed 0.0 in total
+
+      6 employee with positions: Designer, Developer,  worked this time
+          Developer position - 13  hours
+          Designer position - 90  hours
+        and was payed 2851.8 in total
+
+      7 employee with positions: Director,  worked this time
+          Director position - 149  hours
+        and was payed 8000.0 in total
+
+      8 employee with positions: Tester,  worked this time
+          Tester position - 0  hours
+        and was payed 0.0 in total
+
+      9 employee with positions: Accountant, Designer,  worked this time
+          Accountant position - 125  hours
+          Designer position - 0  hours
+        and was payed 6000.0 in total
+
+      10 employee with positions: Accountant, Designer,  worked this time
+          Accountant position - 42  hours
+          Designer position - 13  hours
+        and was payed 6313.1 in total
+
+      11 employee with positions: Tester,  worked this time
+          Tester position - 0  hours
+        and was payed 0.0 in total
+
+      12 employee with positions: Designer, Developer,  worked this time
+          Developer position - 2  hours
+          Designer position - 18  hours
+        and was payed 484.6 in total
+
+      13 employee with positions: Tester,  worked this time
+          Tester position - 0  hours
+        and was payed 0.0 in total
+
+      14 employee with positions: Director,  worked this time
+          Director position - 69  hours
+        and was payed 8000.0 in total
+
+      15 employee with positions: Tester,  worked this time
+          Tester position - 0  hours
+        and was payed 0.0 in total
+
+      16 employee with positions: Developer, Manager,  worked this time
+          Developer position - 0  hours
+          Manager position - 59  hours
+        and was payed 4000.0 in total
+
+      17 employee with positions: Tester,  worked this time
+          Tester position - 0  hours
+        and was payed 0.0 in total
+
+      18 employee with positions: Director,  worked this time
+          Director position - 0  hours
+        and was payed 0.0 in total
+
+      19 employee with positions: Developer, Manager,  worked this time
+          Developer position - 0  hours
+          Manager position - 3  hours
+        and was payed 4000.0 in total
+
+      20 employee with positions: Designer, Developer,  worked this time
+          Developer position - 0  hours
+          Designer position - 0  hours
+        and was payed 0.0 in total
+
+        Since we had insufficient resources, we hired freelancers:
+            [Accountant], he worked 2  hours, and was payed 1500.0
+        
