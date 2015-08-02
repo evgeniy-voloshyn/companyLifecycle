@@ -9,9 +9,7 @@ import org.apache.velocity.app.VelocityEngine;
 import java.io.*;
 
 
-/**
- * Created by vitamin on 30.07.2015.
- */
+
 public class ReportGenerator {
 
     private static final ReportGenerator INSTANCE = new ReportGenerator();

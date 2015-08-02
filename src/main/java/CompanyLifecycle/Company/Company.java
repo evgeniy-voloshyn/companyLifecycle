@@ -7,9 +7,7 @@ import CompanyLifecycle.util.*;
 
 import java.util.*;
 
-/**
- * Created by vitamin on 23.07.2015.
- */
+
 public class Company {
 
     private static final Company INSTANCE = new Company();
@@ -26,9 +24,7 @@ public class Company {
 
     private Accountant accountant;
 
-    public Company() {
-
-    }
+    private Company() {}
 
     public static Company getInstance() {
         return INSTANCE;

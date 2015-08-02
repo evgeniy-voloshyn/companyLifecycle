@@ -6,9 +6,7 @@ import CompanyLifecycle.position.Position;
 import java.math.BigDecimal;
 import java.util.*;
 
-/**
- * Created by vitamin on 27.07.2015.
- */
+
 public class Freelancer implements Employee {
 
     Random random = new Random();

@@ -5,9 +5,7 @@ import CompanyLifecycle.position.Position;
 import java.math.BigDecimal;
 import java.util.*;
 
-/**
- * Created by vitamin on 23.07.2015.
- */
+
 public class EmployeeImpl implements Employee, Observer {
 
     private static final long MAX_WORK_HOURS_PER_WEEK = 40;
@@ -30,7 +28,7 @@ public class EmployeeImpl implements Employee, Observer {
 
     private BigDecimal monthlySalary = new BigDecimal("0.0");
 
-    private List<Position> positionList = new ArrayList<Position>();
+    private List<Position> positionList = new ArrayList<>();
 
     private Map<Position, Integer> workedHoursMap;
 

@@ -2,9 +2,7 @@ package CompanyLifecycle.position;
 
 import java.math.BigDecimal;
 
-/**
- * Created by vitamin on 24.07.2015.
- */
+
 public class Developer implements Position {
 
     private static final Developer INSTANCE = new Developer();

@@ -45,7 +45,7 @@ public class Customizer {
     }
 
     private static List<Position> createPositions(){
-        List<Position> list = new ArrayList<Position>();
+        List<Position> list = new ArrayList<>();
         list.addAll(Arrays.asList(
                 Accountant.getInstance(),
                 Designer.getInstance(),
@@ -56,6 +56,7 @@ public class Customizer {
         ));
         return list;
     }
+
 
     public static void setupRandomPositions(Employee employee) {
         int i = random.nextInt(positions.size());
@@ -83,7 +84,7 @@ public class Customizer {
     public static Map<Position, List<Employee>> setupMap(List<Position> positionsList){
         Map<Position, List<Employee>> map = new HashMap<>();
         for (Position position : positionsList){
-            map.put(position, new ArrayList<Employee>());
+            map.put(position, new ArrayList<>());
         }
         return map;
     }

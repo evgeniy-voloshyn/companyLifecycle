@@ -6,9 +6,7 @@ import CompanyLifecycle.employee.Freelancer;
 import java.math.BigDecimal;
 import java.util.*;
 
-/**
- * Created by vitamin on 24.07.2015.
- */
+
 public class Director extends Observable implements Position {
 
     private static final Director INSTANCE = new Director();

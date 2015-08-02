@@ -5,9 +5,7 @@ import CompanyLifecycle.position.Position;
 import java.math.BigDecimal;
 import java.util.*;
 
-/**
- * Created by vitamin on 23.07.2015.
- */
+
 public interface Employee extends Observer {
 
     List<Position> getPositionList();
