@@ -6,9 +6,6 @@ import java.math.BigDecimal;
 import java.util.List;
 
 
-/**
- * Created by vitamin on 24.07.2015.
- */
 public class Accountant implements Position {
 
     private static final Accountant INSTANCE = new Accountant();
@@ -45,12 +42,11 @@ public class Accountant implements Position {
         BigDecimal weeklySalary = new BigDecimal("0.0");
         for (Position position : employee.getPositionList()){
             Integer workedHours = employee.getWorkedHoursMap().get(position);
-            System.out.println(employee + " worked " + workedHours);
             BigDecimal rate = position.getRate(workedHours);
             weeklySalary = weeklySalary.add(rate);
         }
         employee.addToSalary(weeklySalary);
-        System.out.println("and got salary " + weeklySalary );
+
 
         return weeklySalary;
     }
